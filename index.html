@@ -4,73 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>testes css</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
-		
-	header li {
-		list-style: none;
-	}
-
-	a:link, a:visited {
-		text-decoration: none;
-		background-color: green;
-		border: 1px solid blue;
-		color: black;
-		display: block;
-		width: 200px;
-		text-align: center;
-		margin-bottom: 1px;
-	}
-
-	a:hover, a:active {
-		background-color: red;
-		color: purple;
-	}
-
-	header li:nth-child(3) {
-		font-size: 24px;
-	}
-
-	section div:nth-child(odd) {
-		background-color: gray;
-	} 
-
-
-		
+		body {
+			font-size: 120%;
+		}
 	</style>
 </head>
 <body>
-	<h1>seletores de pseudo classe</h1>
-	<p>exemplo</p>
-
-	<header>
-		<ul>
-		  <li><a href="/">casa</a></li>
-		  <li><a href="https://www.google.com.br/search?q=tradutor&sxsrf=ALiCzsaH2iJdUby-Ozp1WlSwo9LEtI8sgA%3A1657671068137&source=hp&ei=nA3OYpH4BfeB5OUPg5GvqAw&iflsig=AJiK0e8AAAAAYs4brAQiiQXhnPaJc1ZkRiHi9Dd_o-dQ&oq=&gs_lcp=Cgdnd3Mtd2l6EAEYATIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJ1AAWABghBhoAXAAeACAAQCIAQCSAQCYAQCwAQo&sclient=gws-wiz" target="_blank">abgular</a></li>
-		  <li><a href="https://g1.globo.com/">site do g1</a></li>
-	    </ul>
-</header>
-
-<section>
-	<div>div 1</div>
-	<div>div 2</div>
-	<div>div 3</div>
-	<div>div 4</div>
-	<div>div 5</div>
-	<div>div 6</div>
-	<div>div 7</div>
-	<div>div 8</div>
-	<div>div 9</div>
-	<div>div 10</div>
-	<div>div 11</div>
-	<div>div 12</div>
-	<div>div 13</div>
-	<div>div 14</div>
-	<div>div 15</div>
-	<div>div 16</div>
-	<div>div 17</div>
-	<div>div 18</div>
-	<div>div 19</div>
-	<div>div 20</div>
-</section>
+<div>texto regular</div>
+<div style="font-size: 2em;"> texto 2m
+	<div style="font-size: 2em;"> texto 4m
+		<div style="font-size: .5em;">agora 2m</div>
+	</div>
+</div>
 </body>	
 </html>
