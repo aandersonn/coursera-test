@@ -2,59 +2,45 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS only -->
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
 	<title>testes css</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
-
-     * {
-     	box-sizing: border-box;
-     	margin: 0;
-     	padding: 0;
-     }
-	     h1 {
-	     	margin-bottom: 15;
-	     } 
-	     div#container {
-	     	background-color: #00ffff;
-	     	position: relative;
-	     	top: 60px;
-	     }
-	     p {
-	     	width: 50px;
-	     	height: 50px;
-	     	border: 1px solid black;
-	     	margin-bottom: 15px;
-	     }
-	     #p1 {
-	     	background-color: #a52a2a;
-	     	position: relative;
-	     	top: 65px;
-	     	left: 65px;
-	     }
-	     #p2 {
-	     	background-color: #deb887;
-	     }
-	     #p3 {
-	     	background-color: #5f9ea0;
-	     	position: absolute;
-	     	top: 0;
-	     	left: 0;
-	     }
-	     #p4 {
-	     	background-color: #ff7f50;
-	     }
-
+   
 	</style>
 </head>
 <body>
-<h1>posição de elementos</h1>
 
-<div id="container">
-	<p id="p1"></p>
-	<p id="p2"></p>
-	<p id="p3"></p>
-	<p id="p4"></p>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-sm-6">col 1</div>
+		<div class="col-md-4 col-sm-6">col 2</div>
+		<div class="col-md-4 col-sm-6">col 3</div>
+	</div>
 </div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-sm-6">col 1</div>
+		<div class="col-md-4 col-sm-6">col 2</div>
+		<div class="col-md-4 col-sm-6">col 3</div>
+	</div>
+
+		<div class="row">
+		<div class="col-xs-6">col 1</div>
+		<div class="col-xs-6">col 2</div>
+		<div class="col-xs-6">col 3</div>
+	</div>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="css/script.js"></script>
 </body>	
 </html>
