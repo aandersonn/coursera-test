@@ -1,7 +1,189 @@
-.row {
-	margin-bottom: 15px;
+
+* {
+	padding: 0;
+	margin: 0;
+	
 }
-.row > div {
-	border: 2px solid red;
+
+
+
+.header {
+	font-family: calibri;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.main {
+	font-family: calibri;
+	position: relative;
+	margin-top: 50px;
+
+	
+
+	
+}
+
+/*box first*/
+.box1 {
 	background-color: gray;
+	width: 350px;
+	height: 175px;
+	border: 2px solid black;
+    float: left;
+    margin-right: 65.5px;
+    margin-left: 65.5px;
+}
+
+.subheader1 {
+	background-color: #d59898;
+	width: 100px;
+	height: 25px;
+	border: 2px solid black;
+	margin-top: -2px;
+	margin-left: 248px;
+}
+
+.p1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+}
+
+.pp1 {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 4px;
+}
+/*finish box first*/
+
+/*box second*/
+.box2 {
+	background-color: gray;
+	width: 350px;
+	height: 175px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 65.5px;
+}
+
+.subheader2 {
+	background-color: #c14543;
+	width: 100px;
+	height: 25px;
+	border: 2px solid black;
+	margin-top: -2px;
+	margin-left: 248px;
+}
+
+.p2 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+
+.pp2 {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 4px;
+}
+
+/*finish box second*/
+
+/*box third*/
+.box3 {
+	background-color: gray;
+	width: 350px;
+	height: 175px;
+	border: 2px solid black;
+	float: left;
+
+	
+}
+
+.subheader3 {
+	background-color: #e5d198;
+	width: 100px;
+	height: 25px;
+	border: 2px solid black;
+	margin-top: -2px;
+	margin-left: 248px;
+}
+
+.p3 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+	
+}
+
+.pp3 {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 4px;
+}
+/*finish box third*/
+
+/*desktops*/
+@media (min-width: 1312px) {
+	
+}
+
+/*tablets*/
+@media (min-width: 900px) and (max-width: 1250px) {
+       .box3 {
+       	margin-top: 40px;
+       	margin-left: 65.5px;
+       	width: 765.5px;
+       }
+       .subheader3 {
+       	margin-left: 663px;
+       }
+       .pp3 {
+       	margin-top: 30px;
+       }
+}
+
+/*tablet two*/
+@media (min-width: 820px) and (max-width: 899px) {
+
+       .box1 {
+       	margin-left: 37.3px;
+       	margin-right: 37.3px;
+       }
+       .box2 {
+       	margin-left: 0px;
+       	margin-right: 0px;
+       }
+       .box3 {
+       	margin-left: 37.3px;
+       	margin-top: 40px;
+       	width: 745.4px;
+       }
+       .subheader3 {
+       	margin-left: 644px;
+       	}
+       	 .pp3 {
+       	margin-top: 30px;
+       }
+ 
+
+}
+
+   /*smartphone*/
+@media (min-width: 375px) and (max-width: 821px) {
+	.main {
+		margin-top: 30px;
+	}
+	.box1 {
+		margin-left: 11px;
+	}
+	.box2 {
+		margin-left: 11px;
+		margin-top: 15px;
+	}
+	.box3 {
+		margin-left: 11px;
+		margin-top: 15px;
+	}
 }
